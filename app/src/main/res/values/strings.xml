@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">AC1_M</string>
+    <string name="app_name">Gerenciador de Livros</string>
+    <string name="book_title">Título do Livro</string>
+    <string name="book_author">Autor</string>
+    <string name="read_status">Lido</string>
+    <string name="save">Salvar</string>
+    <string name="error_fields_required">Preencha todos os campos!</string>
 </resources>

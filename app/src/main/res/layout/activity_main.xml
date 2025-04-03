@@ -10,7 +10,8 @@
         android:layout_height="wrap_content"
         android:hint="Título do Livro"
         android:minHeight="48dp"
-        android:padding="8dp"/>
+        android:padding="8dp"
+        android:maxWidth="488dp"/>
 
     <EditText
         android:id="@+id/edtAutor"
@@ -18,7 +19,8 @@
         android:layout_height="wrap_content"
         android:hint="Autor"
         android:minHeight="48dp"
-        android:padding="8dp"/>
+        android:padding="8dp"
+        android:maxWidth="488dp"/>
 
     <Spinner
         android:id="@+id/spnCategoria"
@@ -41,7 +43,9 @@
         android:layout_height="wrap_content"
         android:text="Salvar"
         android:minHeight="48dp"
-        android:padding="8dp"/>
+        android:padding="8dp"
+        android:maxWidth="320dp"
+        android:layout_gravity="center_horizontal"/>
 
     <ListView
         android:id="@+id/lvLivros"

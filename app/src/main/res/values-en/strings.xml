@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Book Manager</string>
+    <string name="book_title">Book Title</string>
+    <string name="book_author">Author</string>
+    <string name="read_status">Read</string>
+    <string name="save">Save</string>
+    <string name="error_fields_required">Fill in all fields!</string>
+</resources>
