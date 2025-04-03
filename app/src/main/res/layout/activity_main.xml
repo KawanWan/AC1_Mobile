@@ -8,19 +8,21 @@
         android:id="@+id/edtTitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Título do Livro"
+        android:text="@string/book_title"
         android:minHeight="48dp"
         android:padding="8dp"
-        android:maxWidth="488dp"/>
+        android:maxWidth="488dp"
+        android:inputType="text"/>
 
     <EditText
         android:id="@+id/edtAutor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Autor"
+        android:text="@string/book_author"
         android:minHeight="48dp"
         android:padding="8dp"
-        android:maxWidth="488dp"/>
+        android:maxWidth="488dp"
+        android:inputType="text"/>
 
     <Spinner
         android:id="@+id/spnCategoria"
@@ -33,7 +35,7 @@
         android:id="@+id/switchLido"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lido"
+        android:text="@string/read_status"
         android:padding="8dp"
         android:minHeight="48dp"/>
 
@@ -41,7 +43,7 @@
         android:id="@+id/btnSalvar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Salvar"
+        android:text="@string/save"
         android:minHeight="48dp"
         android:padding="8dp"
         android:maxWidth="320dp"
